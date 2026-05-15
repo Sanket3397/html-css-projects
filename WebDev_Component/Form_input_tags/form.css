@@ -1,0 +1,19 @@
+.container{
+    margin: auto;
+    border: 1px solid #000;
+    width: 60%;
+    background-color: rgba(157, 249, 29, 0.938);
+}
+h1{
+    text-align: center;
+}
+input{
+    margin-top: 10px;
+}
+form{
+    margin-left: 300px;
+}
+select
+{
+    margin-top: 10px;
+}

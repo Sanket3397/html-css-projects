@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Application for Web Developer</h1>
+        <form action="post">
+            <div>
+                <label for="username">Enter your username</label>
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+            </div>
+            <div>
+                <label for="password">Enter your password</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <label for="gender">Male</label>
+                <input type="radio" name="Gender" id="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="Female" id="female">
+            </div>
+            <div>
+                <label for="role">Role</label>
+                <select name="Role" id="role">
+                    <option value="Java Developer">Java Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

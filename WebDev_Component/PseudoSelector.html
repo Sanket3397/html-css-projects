@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        div p:first-child{
+            background-color: cornflowerblue;
+        }
+        div p:last-child{
+            background-color: blueviolet;
+        }
+        div p:nth-child(2){
+            background-color: lightgreen;
+        }
+        div p:nth-child(3){
+            background-color: lightsalmon;
+        }
+        div p:nth-child(4){
+            background-color: aquamarine;
+        }
+        div button:hover{
+            background-color: red;
+            color: white;
+        }
+        div input:focus{
+            border: 2px solid #0904f8;
+        }
+        div button:active{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is Paragraph tag 1</p>
+        <p>This is Paragraph tag 2</p>
+        <p>This is Paragraph tag 3</p>
+        <p>This is Paragraph tag 4</p>
+        <p>This is Paragraph tag 5</p>
+    </div>
+    <div style="margin-top: 20px;">
+        <button type="button">click here</button>
+        <input type="text">
+    </div>
+</body>
+</html>
